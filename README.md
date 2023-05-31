@@ -2,7 +2,7 @@
 
 A script that looks for the -legacy command line argument when launching [Legacy Guard](https://github.com/txtatech/d2r-legacy-guard) from inside a mod.
 
-It utilizes the `psutil` library to gather information about the parent process and the `subprocess` and `multiprocessing` modules to launch Legacy Guard in a separate process if it finds the -legacy command line argument present in the D2R.exe that launched it.
+It utilizes the `psutil` library to gather information about the parent process and the `subprocess` and `multiprocessing` modules to launch [Legacy Guard](https://github.com/txtatech/d2r-legacy-guard) in a separate process if it finds the -legacy command line argument present in the D2R.exe process that initially launched it.
 
 ## Prerequisites
 
